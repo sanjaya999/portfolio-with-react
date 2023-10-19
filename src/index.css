@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav{
+  background-color: black;
+  color: white;
+    }
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: right;
+}
+
+.nav li{
+  margin: 20px;
+  margin-right: 55px;
+}
+
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Gabarito' ;
+  transition: transform 0.2s;
+}
+
+
+
+.nav li a:hover {     /*not working */
+  transform: scale(1.1);
+  color:white; 
+}
